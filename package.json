@@ -1,0 +1,40 @@
+{
+  "name": "websocket-p2p",
+  "version": "0.1.0",
+  "description": "A p2p network using websockets, written in nodejs/typescript.",
+  "main": "./src/node.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "prettier": "node ./node_modules/prettier/bin-prettier.js '**/*.{ts,tsx,json,md}' --ignore-path .gitignore --single-quote --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ExtraHash/websocket-p2p.git"
+  },
+  "keywords": [
+    "p2p",
+    "websockets",
+    "nodejs",
+    "typescript",
+    "messaging",
+    "chat"
+  ],
+  "author": "ExtraHash",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ExtraHash/websocket-p2p/issues"
+  },
+  "homepage": "https://github.com/ExtraHash/websocket-p2p#readme",
+  "dependencies": {
+    "@types/sqlite3": "^3.1.5",
+    "@types/ws": "^6.0.3",
+    "@types/yargs": "^13.0.3",
+    "chalk": "^2.4.2",
+    "sqlite3": "^4.1.0",
+    "ws": "^7.1.2",
+    "yargs": "^14.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
